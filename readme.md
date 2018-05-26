@@ -10,8 +10,8 @@ Project Requirements
 
 1.  Please refer to the provided designs and the requirements below for details. Designs can be accessed in Zeplin. You will be required you to create a free account at Zeplin and receive an invite from us to access the project.
 
-  1.  Zeplin:
-  	1. You will receive an email to the Zeplin project containing the project designs and assetts.
+1.  Zeplin:
+	1. You will receive an email to the Zeplin project containing the project designs and assetts.
 
 	1.  In Zeplin you can:
 
