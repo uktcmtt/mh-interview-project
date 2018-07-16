@@ -8,9 +8,8 @@ Project Requirements
 
 1.  Create a single-page app to display and manage profile listings. Use the sample app from this repository as a starting point.
 
-1.  Please refer to the provided designs and the requirements below for details. Designs can be accessed in Zeplin. You will be required you to create a free account at Zeplin and receive an invite from us to access the project.
+1.  Please refer to the provided designs and the requirements below for details. Designs can be accessed in Zeplin - we will send you an invite to access the project. You will need you to create a free account at Zeplin, if you don't have one.
 
-1.  Zeplin:
 	1. You will receive an email to the Zeplin project containing the project designs and assetts.
 
 	1.  In Zeplin you can:
@@ -19,7 +18,7 @@ Project Requirements
 
 		2.  Inspect each element to determine colors, font sizes and names, relative distance of each element to other elements, shadows, border radiuses, etc.
 
-1.  The user must be able to:
+1.  The app user must be able to:
 
 	1.  See an initial list of profiles
 
@@ -47,7 +46,7 @@ Project Requirements
 
 	1.  All fields are required
 
-	2.  The name field should require that at least two names to be entered to be valid
+	2.  The name field should require that at least two names are entered to be valid input.
 
 	3.  When an image URL is entered the image should load in the area in front of it.
 
@@ -59,26 +58,26 @@ Project Requirements
 
 		3.  City
 
-	6.  Social profiles - for the purpose of this project these are just toggle buttons. When clicked/tapped their state changes as shown in the designs. Only the social icons for the activated buttons will show in the profile view.
+	6.  Social profiles - for the purpose of this project these are just toggle buttons. When clicked/tapped their state should change as shown in the designs. Only the social icons for the activated buttons will show in the profile view.
 
 	7.  The save button should be disabled unless all the required fields are entered.
 
-1.  Profile card sizing
+1.  Profile card sizing:
 
-	1.  Width should be no longer than 660px
+	1. The card width should be: 
 
-	2.  For wider screens that allow it, fit two cards per row
+		1. flexible depnding on the browser width
+	
+		1. no more than 660px
+	
+		1. at least 580px
 
-	3.  The minimum card width is 580px
+	2.  There should be two cards per row, unless the screen size is too narrow to fit them at their minimum width
 
-	4.  For mobile devices the cards should stretch to the screen width less any margins you can take from the designs.
+	4.  For mobile devices the cards should stretch to the screen width, less any margins. You can see those from the Zeplin designs.
 
 	5.  The short bio inside the card should never be taller than 3 lines regardless of its width. The third line, if present, should be fading to white (see design screen 01).
 
-Bonus
-=====
-
-Only if you have time and decide to do it, make the app responsive (use the provided designs for reference). For our purposes phone is considered any screen with width below 480px. Small screens and tablets are below 767px screen width.
 
 Constraints
 ===========
@@ -87,28 +86,16 @@ Constraints
 
 -   Make the app responsive so it works both on mobile and desktop devices.
 
--   For CSS use
+-   For CSS use SCSS
 
-	-   SCSS for the code
-
-	-   BEM for the naming methodology
-
--   Approach the project with the mindset as if
-
-	-   it will be integrated into a hypothetical main codebase, i.e. other developers should be able to work on it and understand it.
-
-	-   Certain components and design elements you create will be reused in other parts of the app
-
--   Use industry best practices for every aspect of the project as you see fit.
-
--   For the logo and the icons use SVGs. The social icons can be PNGs.
 
 Deliverables
 ============
 
 -   A full project that we can build and run on a localhost machine using only npm.
 
--   Submit your final work as a repository on your Github account that we can checkout.
+-   Submit your final work as a repository on your Github account.
+
 
 Questions / Comments
 ====================
